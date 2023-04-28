@@ -26,7 +26,7 @@ ul{
 
 /* Header */
 .header{
-    background-color: var(--black);
+    background-color: #CCBAA4;
     box-shadow: 1px 1px 5px 0px var(--gray);
     position: sticky;
     top: 0;
