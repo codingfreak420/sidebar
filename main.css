@@ -142,15 +142,9 @@ ul{
 
 
 #centerapp {text-align: center;
-  margin:auto;
-padding-left: 40%;
-margin-right: -40%}}
+  margin-left: 15%; 
+}
 
 
 
 fieldset {border-radius: 9px}
-
-#driverapp { padding-left: 40%;
-margin-right: -40%}
-
-
