@@ -142,9 +142,12 @@ ul{
 
 
 #centerapp {text-align: center;
-  margin-left: 10%; margin-right: 30%;
+  margin-right: 35%; 
 }
 
+.centerapp {padding-left: 30%;}
 
 
 fieldset {border-radius: 9px}
+
+.required_line_required_asterisk {color: red}
