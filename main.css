@@ -3,7 +3,7 @@
 
 :root{
     --white: #f9f9f9;
-    --black: #CDBAA5;
+    --black: #36383F;
     --gray: #85888C;
 } /* variables*/
 
@@ -62,6 +62,25 @@ ul{
     transition: max-height .5s ease-out;
 }
 
+/* Sub nav */
+.subnav-content {
+    background-color:  var(--white);
+    width: 100%;
+    z-index: 1;
+    padding: 20px 0 ;
+    display: none;
+  }
+.subnav-content a {
+    color: var(--black);
+    text-decoration: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+.subnav:hover .subnav-content {
+    display: block;
+}
+
 /* Menu Icon */
 .hamb{
     cursor: pointer;
@@ -99,7 +118,6 @@ ul{
     display: none;
 } /* Hide checkbox */
 
-
 /* Toggle menu icon */
 .side-menu:checked ~ nav{
     max-height: 100%;
@@ -117,7 +135,7 @@ ul{
 }
 
 /* Responsiveness */
-@media (min-width: 1040px) {
+@media (min-width: 768px) {
     .nav{
         max-height: none;
         top: 0;
@@ -138,7 +156,13 @@ ul{
     .hamb{
         display: none;
     }
+  /* Sub nav */
+    .subnav-content {
+        padding: 20px 0 ;
+        display: none;
+        background-color:  var(--black);
+    }
+    .subnav-content a {
+        color: white;
+    }
 }
-
-
-
